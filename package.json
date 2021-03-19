@@ -1,0 +1,25 @@
+{
+  "name": "cypress-training",
+  "version": "1.0.0",
+  "description": "This is a Workshop about Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pilarpatino/Cypress-Training.git"
+  },
+  "keywords": [
+    "ui-testing",
+    "dojo",
+    "practice",
+    "cypress"
+  ],
+  "author": "Pilar Patino Torres <pilarpatinotores@gmail.com> (pilarpatino)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pilarpatino/Cypress-Training/issues"
+  },
+  "homepage": "https://github.com/pilarpatino/Cypress-Training#readme"
+}
