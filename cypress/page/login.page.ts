@@ -9,12 +9,12 @@ class LoginPage {
         this.signInButton = '#SubmitLogin'
     }
 
-    public typeEmailAddress(): void {
-        cy.get(this.emailAddressField).type("aperdomobo@gmail.com")
+    public typeEmailAddress(email:string): void {
+        cy.get(this.emailAddressField).type(email)
     }
 
-    public typePassword(): void {
-        cy.get(this.passwordField).type("WorkshopProtractor")
+    public typePassword(password:string): void {
+        cy.get(this.passwordField).type(password)
     }
 
     public goToSignInButton(): void {

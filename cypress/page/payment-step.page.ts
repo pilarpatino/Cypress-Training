@@ -17,9 +17,9 @@ class PaymentPage {
         cy.get(this.confirmOrderButton).click()
     }
 
-    public verifyOrderCompleted(): void {
+    public verifyOrderCompleted(orderCompleted: string): void {
         cy.get(this.orderCompletedText)
-        .should("have.text", "Your order on My Store is complete.")
+        .should("have.text", orderCompleted)
     }
 
 }
