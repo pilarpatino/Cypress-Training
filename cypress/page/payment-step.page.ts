@@ -6,7 +6,7 @@ class PaymentPage {
     constructor() {
         this.payByBankWireButton = '.bankwire'
         this.confirmOrderButton = '#cart_navigation > button'
-        this.orderCompletedText = '#center_column > div > p > strong'
+        this.orderCompletedText = '.cheque-indent > strong'
     }
 
     public goToPayByBankWireOption(): void {
